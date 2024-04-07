@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 apache-airflow = {extras = ["google", "postgres"], version = "==2.8.4"}
 flask = "*"
+flask-cors = "==4.0.0"
 
 [dev-packages]
 

@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from methods.file_operation import list_files, move_file
+from methods.file_operations import list_files, move_file
 
 file_blueprint = Blueprint('file_blueprint', __name__)
 
